@@ -15,4 +15,5 @@ Objective :- To build a model for forecasting the gold price.
         - Got the model parameters as (1,1,1) (4,1,1,12).
 
 ### Model building :-
-        - Built two models, Sarima model using the parameter values we got and also using auto_arima function in python, then did forecast for 30 data points.   
+        - Built two models, Sarima model using the parameter values we got and also using auto_arima function in python,
+          then did forecast for 30 data points.   
