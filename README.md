@@ -18,3 +18,5 @@ Objective :- To build a model for forecasting the gold price.
         - Built two models, Sarima model using the parameter values I got and also using auto_arima function in python,
           then did forecast for 30 data points.   
         - For Sarima and auto_arima got MAPE(Mean Absolute percentage error) as 6.57 and 6.45 respectively.
+        - In the second file I have used rolling window method for time series split and iterated the model on the data,
+          at the end got the MAPE of 6.59
