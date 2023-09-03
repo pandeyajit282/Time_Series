@@ -6,13 +6,13 @@ Objective :- To build a model for forecasting the gold price.
         Gold rate data from the yfinance (Yahoo finance).
 
 ### Preprocessing :- 
-        * Selected the daily 'close' price feature as are time series data and dropped rest features.
-        2) The daily data is converted into monthly data by using downsampling.
-        3) checked for any anomalies.
-        4) checked for stationarity of the data using adf test and got output as non stationary.
-        5) By using differencing made the data stationary.
-        6) Then checked for seasonality and got seasonal data.
-        7) Got the model parameters as (1,1,1) (4,1,1,12).
+        - Selected the daily 'close' price feature as are time series data and dropped rest features.
+        - The daily data is converted into monthly data by using downsampling.
+        - checked for any anomalies.
+        - checked for stationarity of the data using adf test and got output as non stationary.
+        - By using differencing made the data stationary.
+        - Then checked for seasonality and got seasonal data.
+        - Got the model parameters as (1,1,1) (4,1,1,12).
 
 ### Model building :-
-        1) 
+        - Built two models, Sarima model using the parameter values we got and also using auto_arima function in python, then did forecast for 30 data points.   
